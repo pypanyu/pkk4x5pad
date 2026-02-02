@@ -1,0 +1,7 @@
+include:
+  - board: nice_nano_v2
+    shield: DecaDeca_L
+  - board: nice_nano_v2
+    shield: DecaDeca_R
+  - board: nice_nano_v2
+    shield: settings_reset
