@@ -3,15 +3,14 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&lt 4 ESC  &kp Q     &kp W     &kp E    &kp R  &kp T
-&lt 2 TAB  &kp A     &kp S     &kp D    &kp F  &kp G
-&kp LSHFT  &kp Z     &kp X     &kp C    &kp V  &kp B
+&kp ESC    &kp Q     &kp W     &kp E        &kp R  &kp T
+&lt 2 TAB  &kp A     &kp S     &kp D        &kp F  &kp G
+&kp LSHFT  &kp Z     &kp X     &kp C        &kp V  &kp B
 &kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE
             >;
         };
